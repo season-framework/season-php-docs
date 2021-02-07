@@ -1,0 +1,133 @@
+@media (min-width: 48rem) {
+    .navbar-expand-md .navbar-light .nav-item.active:after,
+    .navbar-expand-md.navbar-light .nav-item.active:after {
+        border-color: #FF7F11;
+    }
+}
+
+.list-group {
+    margin: 0;
+}
+
+.selectize-control.form-select .selectize-input {
+    min-height: 36px;
+}
+
+@media (min-width: 48rem) {
+    .navbar-expand-md .navbar-light .nav-item.active:after,
+    .navbar-expand-md.navbar-light .nav-item.active:after {
+        border-color: #ed8936;
+    }
+}
+
+.list-group {
+    margin: 0;
+}
+
+.selectize-control.form-select .selectize-input {
+    min-height: 36px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #ed8936;
+    border-color: #ed8936;
+}
+
+
+/* card inputs css */
+
+.form-table {
+    width: 100%;
+    font-size: 14px;
+}
+
+.card-form .row {
+    border-bottom: 1px solid rgba(101, 109, 119, .16);
+}
+
+.card-form .row:last-child {
+    border-bottom: none;
+}
+
+.form-table th {
+    padding: 8px 12px;
+    width: 72px;
+    color: #ed8936;
+    background: rgba(237, 137, 54, .1);
+}
+
+.form-table td {
+    padding: 8px 12px;
+}
+
+.form-table .form-control {
+    border: 0;
+    border-radius: 0;
+    padding: 8px 12px;
+}
+
+.form-table .form-control:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.form-table .form-table-input {
+    padding: 0;
+}
+
+.card-form .row {
+    padding: 0;
+    margin: 0;
+}
+
+.card-form .row>div {
+    padding: 0;
+    margin: 0;
+}
+
+.card-form .btn i {
+    width: auto;
+    height: auto;
+    margin: 0;
+    -webkit-margin-start: 0;
+    margin-inline-start: 0;
+    vertical-align: none;
+}
+
+figure.table table {
+    width: 100%;
+}
+
+figure.table table tr td,
+figure.table table tr th {
+    border: 1px solid #cbcbcb;
+    padding: 4px 8px;
+}
+
+.tox.tox-tinymce.tox-tinymce--disabled {
+    border: none;
+}
+
+tr.strikeout td {
+    color: #656d77;
+    text-decoration: line-through;
+}
+
+.modal.modal-blur.show {
+    z-index: 10000;
+}
+
+.modal-header {
+    background: #ed8936;
+    color: #ffffff;
+}
+
+.badge {
+    text-transform: none;
+}
+
+pre {
+    background: #efefef;
+}
